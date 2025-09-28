@@ -14,5 +14,5 @@ jobs:
         node-version: 22
 
     - name: Check NodeJS version
-      run: node version
+      run: node --version
   
