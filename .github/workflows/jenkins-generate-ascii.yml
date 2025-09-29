@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   push:
-    branches: feature-testing
+    branches: [feature-testing]
 
 jobs:
   build-artwork:
